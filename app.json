@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "rn-learning",
+    "slug": "rn-learning",
+    "scheme": "rn-learning",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf02d823-a9a3-45b8-ac77-ee536d10ab5d"
+      }
+    },
+    "owner": "ohmirt",
+    "plugins": ["expo-router"]
+  }
+}
