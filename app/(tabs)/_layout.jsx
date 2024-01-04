@@ -4,17 +4,31 @@ const TabsLayout = () => {
   return (
     <Tabs>
       <Tabs.Screen
-        name="index"
+        name="coupons/index"
         options={{
           headerShown: false,
-          tabBarLabel: "Şişko",
+          tabBarLabel: "Kuponlarım",
         }}
       />
       <Tabs.Screen
-        name="about/index"
+        name="home/index"
         options={{
           headerShown: false,
-          tabBarLabel: "Obez",
+          tabBarLabel: "Anasayfa",
+        }}
+      />
+      <Tabs.Screen
+        name="branches/index"
+        options={{
+          headerShown: false,
+          tabBarLabel: "Şubeler",
+        }}
+      />
+      <Tabs.Screen
+        name="profiles/index"
+        options={{
+          headerShown: false,
+          tabBarLabel: "Profilim",
         }}
       />
     </Tabs>

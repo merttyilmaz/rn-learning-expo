@@ -1,9 +1,9 @@
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 
 const Homepage = () => {
   return (
     <View>
-      <Text>123 </Text>
+      <Text>Homepage</Text>
     </View>
   );
 };
